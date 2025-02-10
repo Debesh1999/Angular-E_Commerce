@@ -1,22 +1,33 @@
 {
   "seller": [
     {
-      "id": "45d1",
+      "$id": "45d1",
       "name": "Anil singh",
       "email": "anil@seller.com",
       "password": "abc@123"
     },
     {
-      "id": "1147",
+      "$id": "1147",
       "name": "tony",
       "password": "abc@123",
       "email": "tony@seller.com"
     },
     {
-      "id": "d4fc",
+      "$id": "d4fc",
       "name": "anil",
       "password": "abc@123",
       "email": "anil@seller.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "fe72",
+      "name": "lenove",
+      "price": "80000",
+      "category": "laptop",
+      "color": "black",
+      "description": "gaming laptop",
+      "image": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU"
     }
   ]
 }
