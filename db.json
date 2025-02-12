@@ -13,21 +13,93 @@
       "email": "tony@seller.com"
     },
     {
-      "$id": "d4fc",
       "name": "anil",
+      "password": "abc123",
+      "email": "anil@seller.com",
+      "$id": 5
+    },
+    {
+      "name": "alena",
+      "password": "abc123",
+      "email": "alena@seller.com",
+      "$id": 6
+    },
+    {
+      "name": "sam",
       "password": "abc@123",
-      "email": "anil@seller.com"
+      "email": "sam@seller.com",
+      "$id": 7
+    },
+    {
+      "name": "bhasker",
+      "password": "abc@123",
+      "email": "bhasker@seller.com",
+      "$id": 8
     }
   ],
   "products": [
     {
-      "id": "fe72",
-      "name": "lenove",
-      "price": "80000",
-      "category": "laptop",
+      "id": "789e",
+      "name": "Samsung m 40 a ",
+      "price": "55670",
+      "category": "Mobile ",
+      "color": "white",
+      "description": "this is a Samsung product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o"
+    },
+    {
+      "id": "cff3",
+      "name": "Iphone 15",
+      "price": "100000",
+      "category": "mobile",
       "color": "black",
-      "description": "gaming laptop",
-      "image": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU"
+      "description": "An Apple Product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o"
+    },
+    {
+      "id": "5443",
+      "name": "HP Laptop",
+      "price": "70000",
+      "category": "Laptop",
+      "color": "black",
+      "description": "Hp laptop for student and professionals",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg"
+    },
+    {
+      "id": "eaba",
+      "name": "Nike Shoes",
+      "price": "7699",
+      "category": "Shoes",
+      "color": "Black",
+      "description": "Best shoes for Running",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png"
+    },
+    {
+      "id": "fbf5",
+      "name": "Levi's Jeans",
+      "price": "5000",
+      "category": "jeans",
+      "color": "Blue",
+      "description": "Confirmable jeans for man ",
+      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg"
+    },
+    {
+      "id": "4ba2",
+      "name": "Truck",
+      "price": "9000",
+      "category": "Toy",
+      "color": "Yellow",
+      "description": "A toy for 5 year old child",
+      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388"
+    },
+    {
+      "id": "d90d",
+      "name": "Samsung Smart Watch",
+      "price": "20000",
+      "category": "Watch",
+      "color": "Black",
+      "description": "Noise smart watch for man and women both",
+      "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg"
     }
   ]
 }

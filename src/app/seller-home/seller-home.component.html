@@ -20,13 +20,12 @@
           <td>{{ item.price }}</td>
           <td>{{ item.color }}</td>
           <td>{{ item.category }}</td>
-          <td>{{ item.description }}</td>
-          <td><button (click)="deleteProduct(item.id)">Delete</button></td>
-          <!-- <td>
+          <td>{{ item.description }}</td>          
+          <td>
             <fa-icon (click)="deleteProduct(item.id)" [icon]="icon"></fa-icon>
-            <a class="adjust-update-link" routerLink="/seller-update-product/{{item.id}}"> <fa-icon  [icon]="iconEdit"></fa-icon></a>
+            <a class="adjust-update-link" routerLink="/seller-update-product/{{item.id}}"> <fa-icon  [icon]="editIcon"></fa-icon></a>
              
-          </td> -->
+          </td>
         </tr>
       </tbody>
     </table>
