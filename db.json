@@ -39,15 +39,6 @@
   ],
   "products": [
     {
-      "id": "789e",
-      "name": "Samsung m 40 a ",
-      "price": "55670",
-      "category": "Mobile ",
-      "color": "white",
-      "description": "this is a Samsung product",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o"
-    },
-    {
       "id": "cff3",
       "name": "Iphone 15",
       "price": "100000",
@@ -101,5 +92,14 @@
       "description": "Noise smart watch for man and women both",
       "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg"
     }
-  ]
+  ],
+  "users": [
+    {
+      "id": "7fab",
+      "name": "Sam",
+      "email": "sam@user.com",
+      "password": "abc@123"
+    }
+  ],
+  "cart": []
 }

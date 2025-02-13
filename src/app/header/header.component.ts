@@ -12,7 +12,9 @@ import { product } from '../data-type';
 export class HeaderComponent implements OnInit {
   menuType: string = 'default';
   sellerName: string ='';
+  userName:string="";
   searchResult:undefined|product[];
+  cartItems=0;
 
   constructor(private route:Router, private product:ProductService){}  
 
@@ -64,7 +66,7 @@ export class HeaderComponent implements OnInit {
   
       this.product.searchProduct(searchText).subscribe((result) => {
         console.warn(result);
-  
+        
         // Ensure we only take the first 5 results
         this.searchResult = result.slice(0, 5);
       });
