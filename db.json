@@ -99,7 +99,26 @@
       "name": "Sam",
       "email": "sam@user.com",
       "password": "abc@123"
+    },
+    {
+      "id": "fd1d",
+      "name": "Ram",
+      "email": "ram@user.com",
+      "password": "abc@123"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": "dfb7",
+      "name": "Samsung Smart Watch",
+      "price": "20000",
+      "category": "Watch",
+      "color": "Black",
+      "description": "Noise smart watch for man and women both",
+      "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg",
+      "quantity": 1,
+      "productId": "d90d",
+      "userId": "7fab"
+    }
+  ]
 }

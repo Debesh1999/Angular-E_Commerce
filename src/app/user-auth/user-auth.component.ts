@@ -1,9 +1,7 @@
-
 import { Component, OnInit } from '@angular/core';
 import { cart, login, product, SignUp } from '../data-type';
 import { ProductService } from '../services/product.service';
 import { UserService } from '../services/user.service';
-
 
 @Component({
   selector: 'app-user-auth',

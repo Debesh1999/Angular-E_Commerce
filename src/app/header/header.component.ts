@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { ProductService } from '../services/product.service';
 import { product } from '../data-type';
+import { json } from 'stream/consumers';
 
 
 @Component({
@@ -24,14 +25,29 @@ export class HeaderComponent implements OnInit {
         if (localStorage.getItem('seller') && val.url.includes('seller')) {
           let sellerStore=localStorage.getItem('seller');
           let sellerData =sellerStore && JSON.parse(sellerStore)[0];
-          this.sellerName=sellerData.name;
-          console.warn("in seller area")
+          this.sellerName=sellerData.name;          
           this.menuType = "Seller"
-        }else{
-          console.warn("outside seller area")
+        }
+        else if(localStorage.getItem('user')){
+          let userStore = localStorage.getItem('user');
+          let userData = userStore && JSON.parse(userStore);
+          this.userName= userData.name;
+          this.menuType='user';
+          this.product.getCartList(userData.id);
+        }
+        else{          
           this.menuType = "default"
         }
       }
+    })
+
+    let cartData= localStorage.getItem('localCart')
+    if(cartData){
+      this.cartItems= JSON.parse(cartData).length
+    }
+
+    this.product.cartData.subscribe((items) =>{
+      this.cartItems = items.length
     })
   }
 
@@ -40,20 +56,12 @@ export class HeaderComponent implements OnInit {
     this.route.navigate(['/'])
   }
 
-  // searchProduct(query:KeyboardEvent){
-  //   if(query){
-  //     const element = query.target as HTMLInputElement;
-  //     this.product.searchProduct(element.value).subscribe((result)=>{
-        
-  //       console.warn(result)
-  //       if(result.length>5){
-  //         result.length=length
-  //       }
-  //       this.searchResult=result;
-  //     })
-  //   }
-  // }
-
+  userLogout(){
+    localStorage.removeItem('user');
+    this.route.navigate(['/user-auth'])
+    this.product.cartData.emit([])
+  }
+  
   searchProduct(query: KeyboardEvent) {
     if (query?.target) {
       const element = query.target as HTMLInputElement;
