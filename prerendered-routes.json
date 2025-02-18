@@ -1,0 +1,12 @@
+{
+  "routes": [
+    "/",
+    "/cart-page",
+    "/checkout",
+    "/my-orders",
+    "/seller-add-product",
+    "/seller-auth",
+    "/seller-home",
+    "/user-auth"
+  ]
+}
